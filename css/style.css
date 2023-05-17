@@ -1,0 +1,75 @@
+body{
+    background-image:url(../image/photo-1597123021629-3b2ca2bb3f8f.avif);
+    background-size: cover;
+}
+h2{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 40px;
+    color: #212e3d;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title1{
+    text-align: center;
+    font-size: 60px;
+}
+.line{
+    height: 3px;
+    width: 90px;
+    margin-bottom: -15px;
+    background-color: #adb3ba;
+    margin: auto;
+    transition: width .25s;
+}
+.title1:hover .line{
+    width: 130px;
+}
+.row{
+    margin-top: 20px;
+}
+.card {
+    width:300px;
+	text-align: center;
+	transition: all 1.5s (0.7, -0.5, 0.3, 1.8);
+	transform-style: preserve-3d;
+}
+.card:hover{
+	opacity: .8;
+}
+.btn{
+   background-color:  #D1D1D1;
+   text-align: center;
+}
+.show-price{
+    margin: auto;
+    height: 130px;
+    width: 65vw;
+    border: 1px solid #bfbdbd;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 254);
+}
+#addToCart{
+    margin: auto;
+}
+.card-title{
+    font-size:medium bold;
+    color: rgb(72, 72, 72);
+    text-align: center;
+    margin: 5px 0px;
+}
+.btn-info{
+    margin: auto;
+}
+#content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#total{
+    padding-bottom: 20px;
+}
+.card-img-top{
+    height: 300px;
+    width: 300px;
+}
